@@ -71,11 +71,10 @@ const PeepingEyes = () => {
 
     return (
         <div
-            className="face-container hidden xl:flex"
+            className="face-container hidden xl:flex bg-gradient-to-tr from-chocolate via-chocolate to-white "
             style={{
                 height: `${faceHeight}px`, 
                 transition: 'height 0.3s ease-in-out',
-                // backgroundColor: `${color}` 
             }}
         >
             {/* Left Eye */}
@@ -132,6 +131,10 @@ const PeepingEyes = () => {
                         transform: `translate(${eyePositions.rightEye.x}px, ${eyePositions.rightEye.y}px)`,
                     }}
                 />
+
+                <div className='absolute -bottom-4 right-5 w-[20px] h-[20px] border-b-4 border-black rounded-full mouth'></div>
+                <div className='absolute -bottom-3 right-4 w-[24px] h-[20px] border-b-4 border-white rounded-full mouth'></div>
+
             </div>
         </div>
     );
