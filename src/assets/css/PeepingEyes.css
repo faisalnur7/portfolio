@@ -1,6 +1,5 @@
 .face-container {
     position: fixed !important;
-    /* height: 100px !important; */
     width: 100px !important;
     justify-content: center !important;
     align-items: center !important;
@@ -12,8 +11,6 @@
     box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.4);
     transition: 0.3s;
     transform: skewX(-20deg);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
 }
   
 .eye {

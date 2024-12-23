@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../assets/css/PeepingEyes.css';
+import Bubble from './Bubble';
 
 const PeepingEyes = () => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -71,7 +72,7 @@ const PeepingEyes = () => {
 
     return (
         <div
-            className="face-container hidden xl:flex backdrop-blur-lg bg-gradient-to-tr from-chocolate via-chocolate to-white"
+            className="face-container hidden xl:flex bg-gradient-to-tr from-chocolate via-chocolate to-white "
             style={{
                 height: `${faceHeight}px`, 
                 transition: 'height 0.3s ease-in-out',
@@ -134,17 +135,7 @@ const PeepingEyes = () => {
 
                 <div className='absolute -bottom-4 right-5 w-[20px] h-[20px] border-b-4 border-black rounded-full mouth'></div>
                 <div className='absolute -bottom-3 right-4 w-[24px] h-[20px] border-b-4 border-white rounded-full mouth'></div>
-
             </div>
-            {/* Fingers */}
-            <div className='absolute -bottom-3 -right-3 w-[16px] h-[16px] border-t-2 border-black bg-white rounded-full'></div>
-            <div className='absolute -bottom-3 -right-6 w-[16px] h-[16px] border-t-2 border-black bg-white rounded-full'></div>
-            <div className='absolute -bottom-3 -right-9 w-[16px] h-[16px] border-t-2 border-black bg-white rounded-full'></div>
-
-            <div className='absolute -bottom-3 right-8 w-[16px] h-[16px] border-t-2 border-black bg-white rounded-full'></div>
-            <div className='absolute -bottom-3 right-11 w-[16px] h-[16px] border-t-2 border-black bg-white rounded-full'></div>
-            <div className='absolute -bottom-3 right-14 w-[16px] h-[16px] border-t-2 border-black bg-white rounded-full'></div>
-
         </div>
     );
 };
