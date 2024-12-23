@@ -1,0 +1,103 @@
+/* General Phone Mockup */
+.mockup-phone {
+    width: 380px;
+    height: 780px;
+    border-radius: 25px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+  }
+  
+  /* Display Section */
+  .display {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #000, #1a1a1a);
+    border-radius: 15px !important;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Status Bar */
+  .status-bar {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    color: white;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+  }
+  
+  .status-bar .icon {
+    font-size: 18px;
+  }
+  
+  /* Punch-Hole Camera */
+  .punch-hole {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border: 1px solid #666;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+  
+  /* App Screen */
+  .artboard {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+  }
+  
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .icon-wrapper {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .app-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  /* Gesture Bar */
+  .gesture-bar {
+    width: 120px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin: 15px auto;
+    z-index: 2;
+  }
+  

@@ -1,0 +1,21 @@
+.navbar-center li a{
+    color: white;
+}
+
+.navbar-center li a.active{
+    color: white !important;
+    background-color: transparent !important;
+    border: 1px solid;
+}
+
+.navbar-center li a:hover{
+    color: #d2691e;
+}
+
+
+.glass_bg_white{
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,7 @@
+.swiper-wrapper{
+    align-items: center !important;
+}
+
+.swiper-slide img{
+    max-height: 200px;
+}
