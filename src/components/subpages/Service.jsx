@@ -68,7 +68,7 @@ const Service = () => {
       
     
       return (
-        <section className="bg-custom_navy shadow-lg py-0 lg:py-8 px-0 lg:px-8">
+        <section className="bg-custom_navy shadow-lg py-0 lg:py-8 pt-0 pb-8 lg:px-8">
             <div className="container max-w-screen-xl mx-auto px-6 lg:mx-auto gap-8 xl:gap-0 ">
                 <SectionHeading 
                     title={'Serivces that I can provide'} 

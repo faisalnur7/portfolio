@@ -63,7 +63,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    background: #fff;
+    background: radial-gradient(circle, #112b48, #000);
     padding: 20px;
   }
   

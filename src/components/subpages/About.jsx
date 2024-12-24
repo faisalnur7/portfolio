@@ -1,6 +1,6 @@
 import TypingAnimation from "./TypingAnimation";
 import WhatIDo from "./WhatIDo";
-// import IconCloud from './IconCloud'
+import IconCloud from './IconCloud'
 import "../../assets/css/PhoneMockup.css";
 import '../../assets/css/swiperStyle.css';
 import Clock from "./Clock";
@@ -73,12 +73,12 @@ const About = () => {
                                 {/* App Screen */}
                                 <div className="artboard phone-screen">
                                     <div className="icons">
-                                        {/* <IconCloud iconSlugs={slugs} /> */}
-                                        <Marquee slidePerViewNumber={1} />
+                                        <IconCloud iconSlugs={slugs} />
+                                        {/* <Marquee slidePerViewNumber={1} /> */}
                                     </div>
 
                                     <div className="p-2 h-50">
-                                        <p className="text-3xl text-custom_navy">I can build for you a </p> <TypingAnimation color={'text-chocolate_light text-2xl'} texts={["Responsive websites", "SEO friendly websites", "Robust Websites"]} />
+                                        <p className="text-3xl text-white">I can build for you a </p> <TypingAnimation color={'text-chocolate_light text-2xl'} texts={["Responsive websites", "SEO friendly websites", "Robust Websites"]} />
                                     </div>
                                 </div>
 

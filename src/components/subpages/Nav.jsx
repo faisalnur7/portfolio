@@ -43,7 +43,7 @@ const Nav = () => {
                         {/* Logo */}
                         <NavLink
                             to="/"
-                            className="btn btn-ghost text-chocolate_light text-3xl whitespace-nowrap relative">
+                            className="btn btn-ghost text-chocolate_light font-extrabold text-3xl whitespace-nowrap relative">
                             $n = 'Faisal Nur';
                         </NavLink>
                     </div>

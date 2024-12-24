@@ -10,7 +10,7 @@ const Hero = () => {
         <section className="lg:px-8 bg-gray-900 dark:bg-gray-900 relative z-20 shadow-[0_0_5px_5px_rgba(0,0,0,0.3)]">
             <div className="flex container mx-0 px-6 pt-8 pb-0 lg:mx-auto gap-8 lg:pt-16 justify-between">
                 <div className="flex flex-col w-full relative">
-                    <h1 className="max-w-2xl mb-4  text-2xl lg:text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
+                    <h1 className="max-w-2xl mb-4  text-2xl lg:text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl text-white dark:text-white">
                         Hey, I'm Faisal Nur
                     </h1>
                     <h1 className="max-w-2xl mb-4 text-xl lg:text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl dark:text-white">
