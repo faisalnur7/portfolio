@@ -85,9 +85,9 @@ const Hero = () => {
                             </div>
                         </div>
                         <a
-                            href="/assets/pdf/abass-cv-fr.pdf"
+                            href="/pdf/faisal-nur-cv.pdf"
                             download
-                            className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg"
+                            className="z-50 whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg"
                         >
                             RESUME
                         </a>
