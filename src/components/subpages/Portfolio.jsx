@@ -54,9 +54,33 @@ const projects = [
   {
     name: "Hook And Loop",
     description: "I contributed to the development of Hook and Loop, an e-commerce website built on Magento 2. My work included customizing the platform, integrating payment gateways, and optimizing performance to deliver a seamless and user-friendly shopping experience.",
-    image: "../src/assets/img/projects/hookandloop.png",
-    link: "https://ethiotestprep.com/",
+    image: "../src/assets/img/projects/hookloop.png",
+    link: "https://hookandloop.com/",
     techStack: ["Laravel", "jQuery","HTML","CSS", "Bootstarp"],
+    isActive: true
+  },
+  {
+    name: "Racking Expert",
+    description: "I developed the Racking Experts website using WordPress and Elementor, creating a modern and responsive platform tailored for their business needs. This project highlights my expertise in crafting user-friendly designs and functional layouts, ensuring seamless navigation and an engaging user experience.",
+    image: "../src/assets/img/projects/rackingexperts.png",
+    link: "https://rackingexperts.co.uk/",
+    techStack: ["Wordpress", "jQuery","HTML","CSS", "Elementor"],
+    isActive: true
+  },
+  {
+    name: "Mezzanine Experts",
+    description: "I designed and developed the Mezzanine Experts website using WordPress and Elementor, focusing on delivering a professional, responsive, and visually appealing platform. The site is optimized for usability and showcases the brand's expertise in a clean and engaging layout.",
+    image: "../src/assets/img/projects/mezzanineexperts.png",
+    link: "https://rackingexperts.co.uk/",
+    techStack: ["Wordpress", "jQuery","HTML","CSS", "Elementor"],
+    isActive: true
+  },
+  {
+    name: "Drip Agency",
+    description: "I developed the Drip Agency website, a conversion rate optimization (CRO) agency's platform, using WordPress and Advanced Custom Fields (ACF). The site is designed to showcase their expertise in CRO with a sleek, user-friendly layout and customized features that enhance engagement and usability.",
+    image: "../src/assets/img/projects/drip.png",
+    link: "https://dripagency.co/",
+    techStack: ["Wordpress", "jQuery","HTML","CSS", "ACF"],
     isActive: true
   }
 ];
